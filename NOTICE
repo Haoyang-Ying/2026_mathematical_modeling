@@ -1,0 +1,53 @@
+2026 Mathematical Modeling
+Copyright 2026 Haoyang-Ying
+
+Project licensing
+-----------------
+The original contributions by Haoyang-Ying are licensed under the Apache
+License, Version 2.0. See LICENSE for the full license text.
+Third-party materials retain their respective copyright and license terms.
+This project's license does not grant rights to third-party materials beyond
+those granted by their owners.
+
+BSPg / GreedyBSP reference implementation
+---------------------------------------
+Copyright 2024 Huawei Technologies Co., Ltd.
+Upstream author: Pal Andras Papp.
+The upstream repository identifies its copyright holder as the Computing
+Systems Laboratory, Zurich Research Center, Huawei Technologies Switzerland AG.
+Upstream code is licensed under the Apache License, Version 2.0.
+
+Paper: Pal Andras Papp, Georg Anegg, Aikaterini Karanasiou, and
+Albert-Jan N. Yzelman. Efficient Multi-Processor Scheduling in Increasingly
+Realistic Models. SPAA 2024, pp. 463-474.
+DOI: https://doi.org/10.1145/3626183.3659972
+Full version: https://arxiv.org/abs/2404.15246
+Artifact: https://github.com/Algebraic-Programming/Artifacts/tree/master/SPAA_2024_Efficient_Multi-Processor_Scheduling
+Upstream source: algorithms/our_schedulers/algos/simple_schedulers.cpp
+Inspected upstream source blob: 32efb54f836ee0bce82d6b2a27907e9e2881ad39
+
+Related local implementations:
+  - code/problem1_code/src/bspg_original.py
+  - code/problem1_code/src/bspg_shared.py
+  - code/problem1_code/src/bspg_branch_split.py
+  - code/problem2_code/src/q2_bspg_core.py
+  - code/problem3_code/src/q2_bspg_core.py
+
+These Python implementations reference the BSPg algorithm and the public
+GreedyBSP implementation. Local changes include the contest input/output and
+task model, heap-based score maintenance, branch splitting and grouping,
+task merging, and scene-specific scheduling or input-reuse extensions;
+the exact changes vary by file. They are not unmodified upstream releases.
+The upstream copyright, author attribution, and Apache-2.0 terms are retained
+to cover any adapted upstream code.
+
+Contest-provided programs and data
+---------------------------------
+Files under directories named official_runtime originate from, or are
+adaptations of, contest-provided programs, as documented in their source
+comments. Input graphs and fixed parameters under code/100case_data are
+contest materials. Their original rights and applicable terms are retained.
+No separate redistribution license for these materials was found in this
+package. Their redistribution conditions must be verified against the
+original contest materials; the project Apache-2.0 license does not establish
+permission to redistribute them.

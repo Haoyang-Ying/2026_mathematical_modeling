@@ -1,0 +1,33 @@
+{
+  "case": "case_049",
+  "num_cores": 5,
+  "configuration": "read_only_cache",
+  "status": "complete",
+  "makespan": 61538,
+  "original_graph_copy_bytes": 152540,
+  "scheduled_copy_bytes": 1520002,
+  "added_copy_bytes": 1367462,
+  "partition_added_copy_bytes": 1367462,
+  "spill_added_copy_bytes": 0,
+  "cache_hit_rate": 0.28712599944732076,
+  "cache_stats": {
+    "copy_in_hits": 311,
+    "copy_in_misses": 701,
+    "hit_bytes": 251446,
+    "miss_bytes": 624288,
+    "hits": 311,
+    "accesses": 1012,
+    "hit_rate": 0.28712599944732076
+  },
+  "evaluator": "multicore_cut_evaluate_problem_3.py",
+  "evaluation_seconds": 0.719197,
+  "completed_at": "2026-09-26T14:40:46.167889+00:00",
+  "identity": {
+    "graph_sha256": "444854fe118a208ddfa10fa0ddd48d7b5e6cfd3780a8049f2145fc1a9b674a08",
+    "schedule_sha256": "1fa42e22a84aa9e2fcb5d80e2d1696ac9756c0971a0f050aa8fbca0b7914a601",
+    "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+    "official_code_sha256": "f4c2aa6315eee749a81fc0292ed57186bf29aed3d711ef37981729bd7151b11e",
+    "configuration": "read_only_cache"
+  },
+  "official_result_sha256": "f715791a52e66057398654f6cfbdc363cbb3e03cbdd37c220df350db16a8437e"
+}

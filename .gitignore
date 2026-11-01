@@ -1,0 +1,24 @@
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 本机配置与凭据
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+
+# 临时文件与运行输出
+*.log
+*.tmp
+evaluation_output/
+code/problem1_code/output/
+code/problem2_code/output/
+code/problem3_code/output/
+
+# 系统文件
+.DS_Store
+Thumbs.db

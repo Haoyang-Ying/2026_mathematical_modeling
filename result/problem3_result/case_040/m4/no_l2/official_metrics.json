@@ -1,0 +1,25 @@
+{
+  "case": "case_040",
+  "num_cores": 4,
+  "configuration": "no_l2",
+  "status": "complete",
+  "makespan": 86347,
+  "original_graph_copy_bytes": 911238,
+  "scheduled_copy_bytes": 2553836,
+  "added_copy_bytes": 1642598,
+  "partition_added_copy_bytes": 1642598,
+  "spill_added_copy_bytes": 0,
+  "cache_hit_rate": null,
+  "cache_stats": null,
+  "evaluator": "multicore_cut_evaluate_problem_2.py",
+  "evaluation_seconds": 0.527761,
+  "completed_at": "2026-09-26T14:54:52.363050+00:00",
+  "identity": {
+    "graph_sha256": "7d595de282221534f949ab7ffae0ff026d5c7652b9110c18c0031aa78400cc57",
+    "schedule_sha256": "facf9d9ce0d02c783c82aafeb13df77b40e06f26072c725658fa8755e4a82085",
+    "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+    "official_code_sha256": "f4c2aa6315eee749a81fc0292ed57186bf29aed3d711ef37981729bd7151b11e",
+    "configuration": "no_l2"
+  },
+  "official_result_sha256": "77cf8a1f6499204360d119bed8254f561b66d7ef5bf8df1f6d5c9cbb03db2043"
+}

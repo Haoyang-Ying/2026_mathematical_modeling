@@ -1,0 +1,20 @@
+{
+  "case": "case_085",
+  "num_cores": 3,
+  "status": "complete",
+  "makespan": 1131577,
+  "original_graph_copy_bytes": 1689734,
+  "scheduled_copy_bytes": 9545938,
+  "added_copy_bytes": 7856204,
+  "partition_added_copy_bytes": 7856204,
+  "spill_added_copy_bytes": 0,
+  "evaluation_seconds": 5.617142,
+  "completed_at": "2026-09-26T08:23:13.339003+00:00",
+  "identity": {
+    "graph_sha256": "b63169e9cd0f21dc2da6617e7138472e95937465c703b7e4bf4dbc80125ed4f6",
+    "schedule_sha256": "b36656c781dc3b417005d8e3a97e96744985db4b2fbcf5ca9581dfc488df62f3",
+    "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+    "official_code_sha256": "f4c2aa6315eee749a81fc0292ed57186bf29aed3d711ef37981729bd7151b11e"
+  },
+  "official_result_sha256": "afd05cebf2458e5ab92b730850779c7f4030b3579e5fa066133141174aa079eb"
+}
